@@ -10,8 +10,8 @@
 </div>
 
 ## 技术栈
-- 前端：**`vue3` `jsx(可选)` `vuex` `vue-Router` `naive-ui`**
-- Go后端：**`gin` `xorm` `mysql` `redis`**
+- 前端：**`vue3` `vuex` `vue-Router` `naive-ui` `...`**
+- Go后端：**`gin` `xorm` `mysql` `redis` `...`**
 - C#后端：**`开发中...`**
 ## 项目演示
 演示地址：  
