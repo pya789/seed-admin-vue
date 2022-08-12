@@ -9,6 +9,10 @@
   <a href="https://github.com/seed-app/seed-admin-vue"><img src="https://img.shields.io/badge/version-v1.0.0-blue"></a>
 </div>
 
+## 技术栈
+- 前端：**`vue3` `jsx(可选)` `vuex` `vue-Router` `naive-ui`**
+- Go后端：**`gin` `xorm` `mysql` `redis`**
+- C#后端：**`开发中...`**
 ## 项目演示
 演示地址：  
 [https://admin.seed-app.com](https://admin.seed-app.com)
@@ -19,7 +23,7 @@
 > 提示：演示系统数据库每10分钟会自动还原一次
 
 文档地址：  
-[https://admin.seed-app.com](https://admin.seed-app.com)
+[https://www.seed-app.com/admin](https://www.seed-app.com/admin/)
 
 <a href="https://admin.seed-app.com/" target="blank"><img src="https://code-admin-1258623672.cos.ap-beijing.myqcloud.com/demo.png"  alt="seed home" /></a>
 
