@@ -51,7 +51,7 @@ seed-admin是一个纯粹的、完全开源的高可维护权限管理系统，�
 
 ## 项目后端仓库
 Go服务端：[https://github.com/seed-app/seed-admin-go](https://github.com/seed-app/seed-admin-go)  
-C#服务端：[https://github.com/seed-app/seed-admin-dotnet](https://github.com/seed-app/seed-admin-dotnet)  
+C#服务端：[https://github.com/seed-app/seed-admin-dotnet](https://github.com/seed-app/seed-admin-dotnet) (开发中...)
 
 ## 学(kai)习(che)交(mo)流(yu)群
 企鹅1群：8455822
