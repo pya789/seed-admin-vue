@@ -1,7 +1,7 @@
 <script setup name="log">
 import { h } from "vue";
 import {
-    NInput,
+    NInput
 } from 'naive-ui';
 import { timeFormat } from '@/utils/time';
 import Curd from '@/components/Curd/index.vue'

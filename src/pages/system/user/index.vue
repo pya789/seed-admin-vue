@@ -15,7 +15,7 @@ import { useHttp } from '@/http';
 import { timeFormat } from '@/utils/time';
 import { getDict, getLabel } from "@/utils/dict";
 import { generatorRoleTree } from '@/utils/tree'
-import { checkPerms } from "@/utils/perms";
+import { checkPerms } from "@/utils/auth";
 import avatarPath from "/src/assets/images/avatar.jpeg";
 import Search from './components/search.vue'
 import Add from './components/add.vue'

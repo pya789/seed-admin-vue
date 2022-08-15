@@ -1,7 +1,6 @@
 import store from "@/store";
 import { PageEnum } from "@/common/page";
 import { ErrorPageRoute } from "@/router";
-import { deepClone } from "@/utils/obj";
 // 免登录白名单
 const whiteList = ["login"];
 // 全局前置守卫

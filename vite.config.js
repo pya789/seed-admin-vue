@@ -18,13 +18,13 @@ export default defineConfig(({ command, mode }) => {
     server: {
       port: env.VITE_PORT,
       // 是否启用跨域代理
-      // proxy: {
-      //     '/api': {
-      //         target: '',
-      //         changeOrigin: true,
-      //         rewrite: (path) => path.replace(/^\/api/, '/api/v1')
-      //     }
-      // }
+      proxy: {
+        "/api": {
+          target: env.VITE_API,
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/api/, ""),
+        },
+      },
     },
     build: {
       target: "es2020",

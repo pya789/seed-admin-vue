@@ -1,9 +1,8 @@
 // 扫描文件
 export const findFiles = () => {
-  const files = {
-    ...import.meta.globEager("../pages/**/**.vue"),
-    ...import.meta.globEager("../pages/**/**.jsx"),
-  };
+  const files = import.meta.glob(["../pages/**/**.vue", "../pages/**/**.jsx"], {
+    eager: true,
+  });
   let list = [];
   for (const item of Object.keys(files)) {
     // 排除components组件

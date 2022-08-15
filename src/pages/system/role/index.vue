@@ -7,7 +7,7 @@ import {
 import { PlusOutlined, EditOutlined, DeleteOutlined, ReloadOutlined } from '@vicons/antd'
 import { useHttp } from '@/http';
 import { timeFormat } from '@/utils/time';
-import { checkPerms } from "@/utils/perms";
+import { checkPerms } from "@/utils/auth";
 import Search from './components/search.vue'
 import Add from './components/add.vue'
 import Edit from './components/edit.vue'

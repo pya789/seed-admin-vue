@@ -1,9 +1,6 @@
 import Layout from "@/layout";
 // 匹配规则
-const modules = {
-  ...import.meta.glob("../pages/**/**.vue"),
-  ...import.meta.glob("../pages/**/**.jsx"),
-};
+const modules = import.meta.glob(["../pages/**/**.vue", "../pages/**/**.jsx"]);
 // 处理路由
 export const generatorRouter = (routers) => {
   let arr = [];

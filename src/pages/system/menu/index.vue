@@ -9,7 +9,7 @@ import { PlusOutlined, EditOutlined, DeleteOutlined, ReloadOutlined } from '@vic
 import { useHttp } from '@/http';
 import { generatorMenuListTree } from '@/utils/tree'
 import { getDict, getLabel } from "@/utils/dict";
-import { checkPerms } from "@/utils/perms";
+import { checkPerms } from "@/utils/auth";
 import Search from './components/search.vue'
 import Add from './components/add.vue'
 import Edit from './components/edit.vue'

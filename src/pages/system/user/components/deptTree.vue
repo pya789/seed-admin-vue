@@ -5,7 +5,7 @@ import { generatorDeptTree } from '@/utils/tree'
 import { useHttp } from '@/http';
 import { renderIcon } from '@/utils/tree'
 import { PlusOutlined, EditOutlined, DeleteOutlined, UserAddOutlined } from '@vicons/antd'
-import { checkPerms } from "@/utils/perms";
+import { checkPerms } from "@/utils/auth";
 import DeptAdd from './components/deptAdd.vue'
 import DeptEdit from './components/deptEdit.vue'
 const deptAddRef = ref()

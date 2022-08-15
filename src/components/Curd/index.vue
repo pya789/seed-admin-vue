@@ -16,7 +16,7 @@ import {
 } from '@vicons/ionicons5'
 import { useHttp } from "@/http";
 import { getDict } from "@/utils/dict";
-import { checkRoles, checkPerms } from "@/utils/perms";
+import { checkRoles, checkPerms } from "@/utils/auth";
 const props = defineProps({
     table: {
         type: Object,

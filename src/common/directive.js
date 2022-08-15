@@ -1,5 +1,5 @@
 import store from "@/store";
-import { andVerify, orVerify } from "@/utils/perms";
+import { andVerify, orVerify } from "@/utils/auth";
 // 菜单权限
 const usePerms = (app) => {
   app.directive("perms", (el, binding, vnode) => {

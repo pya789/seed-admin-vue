@@ -13,7 +13,7 @@ const props = defineProps({
     // 上传的文件数量限制  大于1自动开启图片多选
     max: {
         type: Number,
-        default: undefined
+        default: 1
     },
     type: {
         type: String,

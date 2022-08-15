@@ -19,7 +19,7 @@ export default class Http {
   constructor(url) {
     // 创建实例
     this.client = axios.create({
-      baseURL: url ? url : import.meta.env.VITE_API,
+      baseURL: url ? url : "/api",
       timeout: 10000,
       headers: {
         "Content-Type": "application/json;charset=UTF-8",
